@@ -1,10 +1,10 @@
 # Overview
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
+This python program is a to-do list app that interacts with a cloud database stored in the google firebase platform. The app contains a user authentication feature that allows users to sign up and/or log in, and once logged in, they can create, add, update, and delete tasks. These tasks are linked to each user, so that they can interact privately with them.
 
-{Provide a description of the software that you wrote and how it integrates with a Cloud Database. Describe how to use your program.}
+Once you run the program, the console output will display a menu with options. Select the option and press enter. You will see a message to confirm your action once you're finished.
 
-{Describe your purpose for writing this software.}
+The purpose of this program is to demonstrate an easy way to interact with a cloud database in real time.
 
 {Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running, a walkthrough of the code, and a view of the cloud database.}
 
@@ -12,27 +12,28 @@
 
 # Cloud Database
 
-{Describe the cloud database you are using.}
+Google Firestore database
 
-{Describe the structure of the database that you created.}
+The project is using a database with a single table containing the necessary tasks data: name, description, and user_id. The primary key is the task id, which is used for all CRUD interactions.
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
+Google Firestore Database
+Email/Password Built-in Authentication
+VS Code 2
+Python
+firebase_admin
+pyrebase
 
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
 
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [Firebase documentation](https://firebase.google.com/docs)
+- [python Documentation](https://docs.python.org/3/)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-
-- Item 1
-- Item 2
-- Item 3
+- Web UI
+- Relational tables
+- Updates notifications
