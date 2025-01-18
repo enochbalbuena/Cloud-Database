@@ -13,6 +13,7 @@ firebase_config = {
     "databaseURL": ""
 }
 
+# Initialize user authentication
 firebase = pyrebase.initialize_app(firebase_config)
 auth = firebase.auth()
 
