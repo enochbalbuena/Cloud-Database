@@ -6,8 +6,6 @@ Once you run the program, the console output will display a menu with options. S
 
 The purpose of this program is to demonstrate an easy way to interact with a cloud database in real time.
 
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running, a walkthrough of the code, and a view of the cloud database.}
-
 [Software Demo Video](https://youtu.be/ZhH-f1hWqns)
 
 # Cloud Database
@@ -26,8 +24,6 @@ firebase_admin
 pyrebase
 
 # Useful Websites
-
-{Make a list of websites that you found helpful in this project}
 
 - [Firebase documentation](https://firebase.google.com/docs)
 - [python Documentation](https://docs.python.org/3/)
